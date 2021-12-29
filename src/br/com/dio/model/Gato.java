@@ -5,11 +5,11 @@ import java.util.Objects;
 public class Gato {
     private String nome;
     private String cor;
-    private interger idade;
+    private Integer idade;
 
         public Gato() {}
 
-    public Gato(String nome, String cor, interger idade) {
+    public Gato(String nome, String cor, Integer idade) {
         this.nome = nome;
         this.cor = cor;
         this.idade = idade;
@@ -31,11 +31,11 @@ public class Gato {
         this.cor = cor;
     }
 
-    public interger getIdade() {
+    public Integer getIdade() {
         return idade;
     }
 
-    public void setIdade(interger idade) {
+    public void setIdade(Integer idade) {
         this.idade = idade;
     }
 
